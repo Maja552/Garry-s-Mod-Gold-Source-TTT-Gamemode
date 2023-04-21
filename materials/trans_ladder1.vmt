@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "TRANS_LADDER1"
+	"$alphatest" 1
+	"$surfaceprop" "metal"
+}

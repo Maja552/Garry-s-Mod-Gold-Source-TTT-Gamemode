@@ -1,0 +1,5 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "cs_estate_classic/wall_stone_02"
+	"$surfaceprop" "rock"
+}

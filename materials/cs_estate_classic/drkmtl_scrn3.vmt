@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmapSelfIllum
+	"$detail" "cs_estate_classic/detail_noise1"
+	"$detailscale" 2.5
+	"$basetexture" "cs_estate_classic/drkmtl_scrn3"
+	"$selfillum" 1
+	"$surfaceprop" "computer"
+}

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+
+{
+	
+"$basetexture" "skybox/TrainYardFt"
+"$nofog" "1"
+"$ignorez" "1"
+
+}

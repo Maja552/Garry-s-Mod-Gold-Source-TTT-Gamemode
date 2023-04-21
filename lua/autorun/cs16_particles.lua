@@ -1,0 +1,12 @@
+game.AddParticles("particles/cstrike16.pcf")
+PrecacheParticleSystem("cs16_impact")
+PrecacheParticleSystem("cs16_impact_smoke")
+PrecacheParticleSystem("cs16_impact_smoke_c")
+PrecacheParticleSystem("cs16_impact_smoke_w")
+PrecacheParticleSystem("cs16_impact_spark")
+PrecacheParticleSystem("cs16_shield_impact")
+PrecacheParticleSystem("cs16_helmet_impact")
+PrecacheParticleSystem("cs16_black_smoke1")
+
+game.AddDecal("hl.impact", {"decals/cs16impact_1", "decals/cs16impact_2", "decals/cs16impact_3", "decals/cs16impact_4", "decals/cs16impact_5"})
+//game.AddDecal("hl.blood", {"decals/cs16blood_1", "decals/cs16blood_2", "decals/cs16blood_3", "decals/cs16blood_4", "decals/cs16blood_5", "decals/cs16blood_6"})

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "TRANS_TENSION3"
+	"$surfaceprop" "metal"
+	"$alphatest" 1
+}

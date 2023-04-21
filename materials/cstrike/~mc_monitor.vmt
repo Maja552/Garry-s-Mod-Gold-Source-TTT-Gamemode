@@ -1,0 +1,14 @@
+"unlitGeneric"
+{
+	"$baseTexture" "cstrike/~mc_monitor"
+	"$surfaceprop" "computer"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 8
+		}
+	}
+}

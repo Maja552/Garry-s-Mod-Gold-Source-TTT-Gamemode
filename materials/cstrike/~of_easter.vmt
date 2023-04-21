@@ -1,0 +1,15 @@
+"unlitGeneric"
+{
+	"$baseTexture" "cstrike/~of_easter"
+	"$surfaceprop" "computer"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 8
+		}
+	}
+}
+

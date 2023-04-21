@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "de_westwood_big/{nmww_treeline1"
+	"$alphatest" 1
+	"$surfaceprop" "foliage"
+}

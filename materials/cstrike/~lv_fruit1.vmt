@@ -1,0 +1,14 @@
+"unlitGeneric"
+{
+	"$baseTexture" "cstrike/~lv_fruit1"
+	"$surfaceprop" "computer"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 8
+		}
+	}
+}

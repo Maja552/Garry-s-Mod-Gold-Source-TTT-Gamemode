@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ledglow"
+	"$spriteorientation" "vp_parallel"
+	"$translucent" "1"
+	"$vertexalpha" "1"
+	"$additive" "1"
+	"$ignorez" "1"
+}

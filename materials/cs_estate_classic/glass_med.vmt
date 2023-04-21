@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	// Original shader: WorldAdditiveTransEnvMapWithMaskedTexture
+	"$basealphaenvmapmask" 1
+	"$detail" "cs_estate_classic/detail_noise1"
+	"$detailscale" 2.5
+	"$basetexture" "cs_estate_classic/glass_med"
+	"$envmap" "env_cubemap"
+	"$envmapmode" 1
+	"$surfaceprop" "glass"
+}

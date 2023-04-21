@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	"$basetexture"	"GLASS_MED"
+	"$translucent" "1"
+	"$surfaceprop" "glass"
+}

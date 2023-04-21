@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/pi_treeb/{pi_treeb"
+	"$translucent" 1
+	"$alphatest" 1
+}

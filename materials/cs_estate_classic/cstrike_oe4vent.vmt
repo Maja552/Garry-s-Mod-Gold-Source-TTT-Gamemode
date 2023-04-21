@@ -1,0 +1,5 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "cs_estate_classic/CSTRIKE_OE4VENT"
+	"$surfaceprop" "metalvent"
+}

@@ -1,0 +1,6 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "cs_estate_classic/joec"
+	"$surfaceprop" "Wood_Panel"
+	"$translucent" "1"
+}

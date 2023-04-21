@@ -1,0 +1,5 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "cs_estate_classic/tsunami"
+	"$surfaceprop" "Wood_Panel"
+}

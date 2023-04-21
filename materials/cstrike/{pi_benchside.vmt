@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "cstrike/{pi_benchside"
+	"$translucent" 1
+	"$surfaceprop" "metal"
+}

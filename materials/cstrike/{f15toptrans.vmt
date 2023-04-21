@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "cstrike/{F15toptrans"
+	"$translucent" 1
+	"$surfaceprop" "metal"
+}

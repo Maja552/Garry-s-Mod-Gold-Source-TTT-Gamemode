@@ -1,0 +1,6 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "cs_estate_classic/{greentree7"
+	"$surfaceprop" "grass"
+	"$translucent" "1"
+}

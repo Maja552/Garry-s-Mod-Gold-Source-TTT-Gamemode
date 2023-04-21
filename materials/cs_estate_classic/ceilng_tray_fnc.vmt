@@ -1,0 +1,5 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "cs_estate_classic/ceilng_tray_fnc"
+	"$surfaceprop" "ceiling_tile"
+}

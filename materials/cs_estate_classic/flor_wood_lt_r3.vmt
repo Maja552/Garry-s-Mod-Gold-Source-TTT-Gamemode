@@ -1,0 +1,5 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "cs_estate_classic/flor_wood_lt_r3"
+	"$surfaceprop" "wood"
+}

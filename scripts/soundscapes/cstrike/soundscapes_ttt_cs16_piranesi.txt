@@ -1,0 +1,168 @@
+"cspiranesi.indoor"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".3"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/roomtone2.wav"
+	}
+
+	"playrandom"
+	{
+
+		"time"		"10,22"
+		"volume"		".2,.35"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/rock1.wav"
+			"wave"	"cstrike/ambient/misc/rock2.wav"
+			"wave"	"cstrike/ambient/misc/rock3.wav"
+		}
+	}
+}
+
+
+
+
+
+"cspiranesi.outdoor"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"		".27"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/wind/wind_outdoors_1.wav"
+	}
+
+	"playrandom"
+	{
+
+		"time"		"6,13"
+		"volume"		".06,.15"
+		"pitch"		"85,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/animal/bird1.wav"
+			"wave"	"cstrike/ambient/animal/bird2.wav"
+			"wave"	"cstrike/ambient/animal/bird3.wav"
+			"wave"	"cstrike/ambient/animal/bird4.wav"
+			"wave"	"cstrike/ambient/animal/bird5.wav"
+			"wave"	"cstrike/ambient/animal/bird6.wav"
+			"wave"	"cstrike/ambient/animal/bird7.wav"
+			"wave"	"cstrike/ambient/animal/bird8.wav"
+			"wave"	"cstrike/ambient/animal/bird9.wav"
+			"wave"	"cstrike/ambient/animal/bird10.wav"
+			"wave"	"cstrike/ambient/animal/bird11.wav"
+			"wave"	"cstrike/ambient/animal/bird12.wav"
+			"wave"	"cstrike/ambient/animal/bird13.wav"
+			"wave"	"cstrike/ambient/animal/bird14.wav"
+			"wave"	"cstrike/ambient/animal/bird15.wav"
+			"wave"	"cstrike/ambient/animal/bird16.wav"
+			"wave"	"cstrike/ambient/animal/bird17.wav"
+			"wave"	"cstrike/ambient/animal/bird18.wav"
+			"wave"	"cstrike/ambient/animal/bird19.wav"
+			"wave"	"cstrike/ambient/animal/bird20.wav"
+		}
+	}
+
+	"playrandom"
+	{
+
+		"time"		"10,25"
+		"volume"		".3,.4"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/clank1.wav"
+			"wave"	"cstrike/ambient/misc/clank2.wav"
+			"wave"	"cstrike/ambient/misc/clank3.wav"
+		}
+
+	}
+
+	"playrandom"
+	{
+
+		"time"		"10,22"
+		"volume"		".35,.5"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/rock1.wav"
+			"wave"	"cstrike/ambient/misc/rock2.wav"
+			"wave"	"cstrike/ambient/misc/rock3.wav"
+		}
+
+	}
+
+	"playrandom"
+	{
+
+		"time"		"30,50"
+		"volume"		".07,.14"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/animal/crow.wav"
+			"wave"	"cstrike/ambient/animal/cow.wav"
+		}
+
+	}
+
+	"playrandom"
+	{
+
+		"time"		"15,35"
+		"volume"		".08,.2"
+		"pitch"		"60,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/overhead/plane1.wav"
+			"wave"	"cstrike/ambient/overhead/plane2.wav"
+			"wave"	"cstrike/ambient/overhead/plane3.wav"
+		}
+
+	}
+
+	"playlooping"
+	{
+
+		"volume"		"1"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/weather/lake_water.wav"
+
+		"soundlevel"  	"SNDLVL_85dB"
+		"position"	"1"
+		// water at t spawn
+	}
+
+	"playrandom"
+	{
+
+		"time"		"8,22"
+		"volume"		".7,1"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/car1.wav"
+			"wave"	"cstrike/ambient/misc/car2.wav"
+			"wave"	"cstrike/ambient/misc/garbage_truck1.wav"
+		}
+
+		"soundlevel"  	"SNDLVL_85dB"
+		"position"	"2"
+		// cars at gate	
+	}
+}

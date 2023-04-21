@@ -1,0 +1,12 @@
+{
+	"title"		:	"GoldSource TTT",
+	"type"		:	"ServerContent",
+	"tags"		:	[ "fun" ],
+	"ignore"	:
+	[
+		"workspace.code-workspace",
+		"*.txt",
+		"*.psd",
+		"*.tga"
+	]
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "temp_m"
+	$selfillummask "mask_m"
+	$selfillum "1"
+	
+	Proxies
+	{
+		PlayerColor
+		{
+			resultVar	$selfillumtint
+			default		0 0 0
+		}
+	}
+}

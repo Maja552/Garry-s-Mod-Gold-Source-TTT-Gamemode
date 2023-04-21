@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "OUT_WALL6B"
+	"$surfaceprop" "Concrete"
+	"$basetexturetransform" "center 0 0 scale 1 1 rotate 0 translate 0 0"
+}

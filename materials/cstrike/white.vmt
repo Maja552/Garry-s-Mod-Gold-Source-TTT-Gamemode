@@ -1,0 +1,5 @@
+"unlitGeneric"
+{
+	"$baseTexture" "cstrike/white"
+	"$surfaceprop" "glass"
+}

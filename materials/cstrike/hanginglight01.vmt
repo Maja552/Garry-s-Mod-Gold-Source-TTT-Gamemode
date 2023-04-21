@@ -1,0 +1,5 @@
+"unlitGeneric"
+{
+	"$baseTexture" "cstrike/HangingLight01"
+	"$surfaceprop" "glass"
+}

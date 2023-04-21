@@ -1,0 +1,5 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "cs_estate_classic/killhouse_woodf"
+	"$surfaceprop" "Wood_Plank"
+}

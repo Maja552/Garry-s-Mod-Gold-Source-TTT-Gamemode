@@ -1,0 +1,302 @@
+
+"csestate.thunder"
+{
+	"dsp"	"1"
+	
+	"playrandom"
+	{
+		"time"		"12,25"
+		"volume"		".45,.7"
+		"pitch"		"90,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/weather/thunder1.wav"
+			"wave"	"cstrike/ambient/weather/thunder2.wav"
+			"wave"	"cstrike/ambient/weather/thunder3.wav"
+			"wave"	"cstrike/ambient/weather/thunder4.wav"
+			"wave"	"cstrike/ambient/weather/thunder5.wav"
+			"wave"	"cstrike/ambient/weather/thunder6.wav"
+		}
+	}
+}
+
+"csestate.indoor"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"		".2"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/roomtone1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".2"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/misc/toilet_refill_loop.wav"
+		"position"	"0"
+		// toilet
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"13,28"
+		"volume"		".3,.5"
+		"pitch"		"80,100"
+		"position"	"1"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/flush1.wav"
+			"wave"	"cstrike/ambient/misc/flush6.wav"
+			"wave"	"cstrike/ambient/misc/toilet.wav"
+		}
+	}
+	
+	"playsoundscape"
+	{
+		"name"				"csestate.thunder"
+	}
+}
+
+"csestate.balcony"
+{
+	"dsp"	"1"
+	
+	"playsoundscape"
+	{
+		"name"				"csestate.outside"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".25"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/crickets2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".3"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/wind/dry_air_short.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,12"
+		"volume"		".3,.5"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/animal/cricket_chirp_1.wav"
+		}
+	}
+}
+
+"csestate.basement"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"		".25"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/under2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".25"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/machines/air_conditioner_loop_1.wav"
+		"position"	"1"
+		// ac
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"8,17"
+		"volume"		".25,.4"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/rock1.wav"
+			"wave"	"cstrike/ambient/misc/rock2.wav"
+			"wave"	"cstrike/ambient/misc/rock3.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"7,13"
+		"volume"		".6,.8"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/wood1.wav"
+			"wave"	"cstrike/ambient/misc/wood2.wav"
+			"wave"	"cstrike/ambient/misc/wood3.wav"
+			"wave"	"cstrike/ambient/misc/wood4.wav"
+			"wave"	"cstrike/ambient/misc/wood5.wav"
+			"wave"	"cstrike/ambient/misc/wood6.wav"
+		}
+
+		"soundlevel"  	"SNDLVL_80dB"
+		"position"	"0"
+		// stairs
+	}
+	
+	"playsoundscape"
+	{
+		"name"				"csestate.thunder"
+	}
+}
+
+
+"csestate.outdoor"
+{
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume"		".1"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/roomtone1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".3"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/crickets2.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"		"7,12"
+		"volume"		".3,.5"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/animal/cricket_chirp_1.wav"
+		}
+	}
+	
+	"playsoundscape"
+	{
+		"name"				"csestate.thunder"
+	}
+}
+
+
+"csestate.spawnarea"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".3"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/wind_litegust.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".15"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/crickets2.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"7,14"
+		"volume"		".32,.5"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/ambulance1.wav"
+			"wave"	"cstrike/ambient/misc/car1.wav"
+			"wave"	"cstrike/ambient/misc/car2.wav"
+			"wave"	"cstrike/ambient/misc/garbage_truck1.wav"
+			"wave"	"cstrike/ambient/misc/police1.wav"
+			"wave"	"cstrike/ambient/misc/city_sirenby.wav"
+		}
+	}
+	
+	"playsoundscape"
+	{
+		"name"				"csestate.thunder"
+	}
+}
+
+
+"csestate.tunnels"
+{
+	"dsp"	"6"
+
+	"playlooping"
+	{
+		"volume"		".5"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/under2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".5"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/weather/drip_loop1.wav"
+	}
+
+	"playrandom"
+	{
+
+		"time"		"8,17"
+		"volume"		".25,.4"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/rock1.wav"
+			"wave"	"cstrike/ambient/misc/rock2.wav"
+			"wave"	"cstrike/ambient/misc/rock3.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"7,15"
+		"volume"		".2,.35"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/metal_str1.wav"
+			"wave"	"cstrike/ambient/misc/metal_str2.wav"
+			"wave"	"cstrike/ambient/misc/metal_str3.wav"
+			"wave"	"cstrike/ambient/misc/metal_str4.wav"
+			"wave"	"cstrike/ambient/misc/metal_str5.wav"
+			"wave"	"cstrike/ambient/tones/pipes2.wav"
+		}
+	}
+	
+	"playsoundscape"
+	{
+		"name"				"csestate.thunder"
+	}
+}
+
+

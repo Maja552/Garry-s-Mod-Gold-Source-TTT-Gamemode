@@ -1,0 +1,186 @@
+"cswestwood.outdoor"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".25"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/wind/dry_air_short.wav"
+	}
+
+	"playrandom"
+	{
+
+		"time"		"11,22"
+		"volume"		".2,.35"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/rock1.wav"
+			"wave"	"cstrike/ambient/misc/rock2.wav"
+			"wave"	"cstrike/ambient/misc/rock3.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"4,12"
+		"volume"		".25,.5"
+		"pitch"		"80,105"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/animal/bird6.wav"
+			"wave"	"cstrike/ambient/animal/bird7.wav"
+			"wave"	"cstrike/ambient/animal/bird9.wav"
+			"wave"	"cstrike/ambient/animal/bird10.wav"
+			"wave"	"cstrike/ambient/animal/bird11.wav"
+			"wave"	"cstrike/ambient/animal/bird12.wav"
+			"wave"	"cstrike/ambient/animal/bird13.wav"
+			"wave"	"cstrike/ambient/animal/bird18.wav"
+			"wave"	"cstrike/ambient/animal/bird19.wav"
+			"wave"	"cstrike/ambient/animal/bird20.wav"
+			"wave"	"cstrike/ambient/animal/flies1.wav"
+			"wave"	"cstrike/ambient/animal/flies2.wav"
+			"wave"	"cstrike/ambient/animal/flies3.wav"
+			"wave"	"cstrike/ambient/animal/snake1.wav"
+			"wave"	"cstrike/ambient/animal/snake2.wav"
+			"wave"	"cstrike/ambient/animal/snake3.wav"
+			"wave"	"cstrike/ambience/3dmeagle.wav"
+		}
+	}
+	
+	
+	"playrandom"
+	{
+
+		"time"		"7,14"
+		"volume"		".15,.25"
+		"pitch"		"80,100"
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/animal/horse_1.wav"
+			"wave"	"cstrike/ambient/animal/horse_2.wav"
+			"wave"	"cstrike/ambient/animal/horse_3.wav"
+			"wave"	"cstrike/ambient/animal/horse_4.wav"
+			"wave"	"cstrike/ambient/animal/horse_5.wav"
+			"wave"	"cstrike/ambient/animal/horse_6.wav"
+			"wave"	"cstrike/ambient/animal/horse_eat_1.wav"
+			"wave"	"cstrike/ambient/animal/horse_eat_2.wav"
+		}
+	}
+	
+}
+
+"cswestwood.indoor"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".2"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/roomtone2.wav"
+	}
+
+	"playrandom"
+	{
+
+		"time"		"10,22"
+		"volume"		".2,.35"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/rock1.wav"
+			"wave"	"cstrike/ambient/misc/rock2.wav"
+			"wave"	"cstrike/ambient/misc/rock3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+
+		"time"		"10,22"
+		"volume"		".2,.35"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/wood1.wav"
+			"wave"	"cstrike/ambient/misc/wood2.wav"
+			"wave"	"cstrike/ambient/misc/wood3.wav"
+			"wave"	"cstrike/ambient/misc/wood4.wav"
+			"wave"	"cstrike/ambient/misc/wood5.wav"
+			"wave"	"cstrike/ambient/misc/wood6.wav"
+		}
+	}
+}
+
+"cswestwood.snipersnest"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".4"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/wind/smallgust2.wav"
+	}
+
+	"playrandom"
+	{
+
+		"time"		"6,12"
+		"volume"		".35,.55"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/animal/bird6.wav"
+			"wave"	"cstrike/ambient/animal/bird7.wav"
+			"wave"	"cstrike/ambient/animal/bird9.wav"
+			"wave"	"cstrike/ambient/animal/bird10.wav"
+			"wave"	"cstrike/ambient/animal/bird11.wav"
+			"wave"	"cstrike/ambient/animal/bird12.wav"
+			"wave"	"cstrike/ambient/animal/bird13.wav"
+			"wave"	"cstrike/ambient/animal/bird18.wav"
+			"wave"	"cstrike/ambient/animal/bird19.wav"
+			"wave"	"cstrike/ambient/animal/bird20.wav"
+			"wave"	"cstrike/ambient/ambience/3dmeagle.wav"
+		}
+	}
+}
+
+
+"cswestwood.tunnel"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".4"
+		"pitch"		"100"
+		"wave"		"cstrike/ambient/tones/under2.wav"
+	}
+
+	"playrandom"
+	{
+
+		"time"		"4,8"
+		"volume"		".35,.55"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"cstrike/ambient/misc/rock1.wav"
+			"wave"	"cstrike/ambient/misc/rock2.wav"
+			"wave"	"cstrike/ambient/misc/rock3.wav"
+		}
+	}
+}

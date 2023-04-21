@@ -1,0 +1,5 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "cs_estate_classic/c_brick04"
+	"$surfaceprop" "brick"
+}

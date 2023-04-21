@@ -1,0 +1,5 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "cs_estate_classic/dirt01"
+	"$surfaceprop" "dirt"
+}
