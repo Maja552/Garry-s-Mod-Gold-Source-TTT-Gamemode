@@ -7,6 +7,12 @@
 		"workspace.code-workspace",
 		"*.txt",
 		"*.psd",
-		"*.tga"
+		"*.tga",
+		".gitattributes",
+		".gitignore",
+		"config.txt",
+		"gsttt_todo.txt",
+		"README.md",
+		".git"
 	]
 }
