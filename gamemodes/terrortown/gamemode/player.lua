@@ -284,30 +284,6 @@ function GM:CanPlayerSuicide(ply)
    return ply:IsTerror()
 end
 
-function GM:PlayerSwitchFlashlight(ply, on)
-   if not IsValid(ply) then return false end
-
-   timer.Simple(0.001, function()
-      if ply:Alive() then
-         ply:SendLua('surface.PlaySound("gsttt/flashlight1.wav")')
-      end
-   end)
-
-
-   -- add the flashlight "effect" here, and then deny the switch
-   -- this prevents the sound from playing, fixing the exploit
-   -- where weapon sound could be silenced using the flashlight sound
-   if (not on) or ply:IsTerror() then
-      if on then
-         ply:AddEffects(EF_DIMLIGHT)
-      else
-         ply:RemoveEffects(EF_DIMLIGHT)
-      end
-   end
-
-   return false
-end
-
 function GM:PlayerSpray(ply)
    if not IsValid(ply) or not ply:IsTerror() then
       return true -- block

@@ -43,7 +43,6 @@ include("cl_scoring_events.lua")
 include("cl_popups.lua")
 include("cl_equip.lua")
 include("cl_voice.lua")
---include("flashlight.lua")
 include("kanade/cl_motd.lua")
 
 function GM:Initialize()
